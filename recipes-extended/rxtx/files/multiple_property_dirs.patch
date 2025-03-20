@@ -2,6 +2,9 @@ Description: Handles the case when "java.ext.dirs" system property contains
  more than one directory.
 Author: Philip Ashmore <contact@philipashmore.com>
 Bug: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=646069
+
+Upstream-Status: Pending
+
 Index: rxtx/src/gnu/io/RXTXCommDriver.java
 ===================================================================
 --- rxtx.orig/src/gnu/io/RXTXCommDriver.java	2011-10-28 13:02:43.046717064 -0400

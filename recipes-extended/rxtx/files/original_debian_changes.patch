@@ -1,6 +1,8 @@
 Description: Removes makefile install of RXTXcomm.jar, silences an unnecessary compiling error
 Origin: Mario Joussen <joussen@debian.org>, edited by Scott Howard <showard314@gmail.com> <2010-06-03>
 
+Upstream-Status: Pending
+
 Index: rxtx/src/RS485Imp.c
 ===================================================================
 --- rxtx.orig/src/RS485Imp.c	2011-10-31 02:58:18.280985274 -0400

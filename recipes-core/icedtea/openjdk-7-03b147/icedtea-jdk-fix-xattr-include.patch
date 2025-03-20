@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 --- openjdk/jdk/src/solaris/native/sun/nio/fs/LinuxNativeDispatcher.c
 +++ openjdk/jdk/src/solaris/native/sun/nio/fs/LinuxNativeDispatcher.c
 @@ -37,7 +37,7 @@

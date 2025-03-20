@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [dead project]
+
 Index: classpath-0.93/native/jni/java-io/java_io_VMFile.c
 ===================================================================
 --- classpath-0.93.orig/native/jni/java-io/java_io_VMFile.c	2006-09-23 07:17:45.000000000 +0200

@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 --- openjdk/jdk/make/sun/xawt/Makefile
 +++ openjdk/jdk/make/sun/xawt/Makefile
 @@ -201,20 +201,6 @@

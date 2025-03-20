@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 --- acinclude.m4.orig	2015-08-18 11:58:23.000000000 +0200
 +++ acinclude.m4	2015-08-18 11:58:30.000000000 +0200
 @@ -2178,3 +2178,37 @@

@@ -1,6 +1,8 @@
 Description: Allows for the enumeration of many additional ports, including ttyACM for Arduino Unos
 Author: Scott Howard <showard314@gmail.com>
 
+Upstream-Status: Pending
+
 Index: rxtx/src/gnu/io/RXTXCommDriver.java
 ===================================================================
 --- rxtx.orig/src/gnu/io/RXTXCommDriver.java	2010-10-04 23:14:47.236148507 -0400

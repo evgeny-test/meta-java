@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 diff --git openjdk/corba/make/common/shared/Platform.gmk openjdk/corba/make/common/shared/Platform.gmk
 index fb575fa..e0426ad 100644
 --- openjdk/corba/make/common/shared/Platform.gmk

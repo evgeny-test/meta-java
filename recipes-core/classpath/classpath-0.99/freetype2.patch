@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [dead project]
+
 Index: classpath-0.99/native/jni/gtk-peer/gnu_java_awt_peer_gtk_FreetypeGlyphVector.c
 ===================================================================
 --- classpath-0.99.orig/native/jni/gtk-peer/gnu_java_awt_peer_gtk_FreetypeGlyphVector.c	2014-02-10 12:01:26.826613065 +0100

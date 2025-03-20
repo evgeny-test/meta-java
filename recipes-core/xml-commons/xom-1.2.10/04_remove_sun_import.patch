@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [dead project]
+
 diff -Nur xom-1.1/src15/nu/xom/JDK15XML1_0Parser.java xom-1.1.new/src15/nu/xom/JDK15XML1_0Parser.java
 --- xom-1.1/src15/nu/xom/JDK15XML1_0Parser.java	2004-08-17 19:18:30.000000000 +0530
 +++ xom-1.1.new/src15/nu/xom/JDK15XML1_0Parser.java	2007-11-13 15:25:08.000000000 +0530

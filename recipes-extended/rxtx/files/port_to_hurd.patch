@@ -1,6 +1,8 @@
 Description: Defines __GNU__ to use the FHS
 Author: Scott Howard <showard@debian.org>
 
+Upstream-Status: Pending
+
 Index: rxtx/src/SerialImp.h
 ===================================================================
 --- rxtx.orig/src/SerialImp.h	2011-02-23 23:26:14.955993397 -0500

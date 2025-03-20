@@ -2,6 +2,8 @@ Description: sys/io.h does not exist on all systems
 Bug: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609152
 Author: Scott Howard <showard@debian.org>
 
+Upstream-Status: Pending
+
 Index: rxtx/configure.in
 ===================================================================
 --- rxtx.orig/configure.in	2011-02-23 23:01:09.596613286 -0500

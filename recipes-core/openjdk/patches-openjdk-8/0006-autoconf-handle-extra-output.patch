@@ -7,6 +7,8 @@ When adding the environment variable JAVA_TOOL_OPTIONS an extra line
 in the output from 'java -version' is produced. As this output is
 parsed by configure script the extra line has to be filtered out.
 
+Upstream-Status: Backport
+
 Signed-off-by: Richard Leitner <richard.leitner@skidata.com>
 
 ---

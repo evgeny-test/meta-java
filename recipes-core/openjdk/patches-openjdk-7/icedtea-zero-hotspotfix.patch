@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 diff --git openjdk/hotspot/make/linux/makefiles/zeroshark.make openjdk/hotspot/make/linux/makefiles/zeroshark.make
 index c2a1484..156bdd0 100644
 --- openjdk/hotspot/make/linux/makefiles/zeroshark.make

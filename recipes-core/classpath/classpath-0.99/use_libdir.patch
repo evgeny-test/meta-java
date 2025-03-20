@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [dead project]
+
 on some arches we use lib64 for libdir so hardcoding to lib
 is not gonna work always
 

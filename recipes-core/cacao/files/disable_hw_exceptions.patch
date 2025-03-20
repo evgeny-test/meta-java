@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 Index: cacao-0.98/src/vm/exceptions.c
 ===================================================================
 --- cacao-0.98.orig/src/vm/exceptions.c	2007-06-05 09:41:07.000000000 +0200

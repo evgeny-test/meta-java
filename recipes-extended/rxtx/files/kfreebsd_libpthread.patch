@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate
+
 Description: libc_r is not available, use libpthread
 Bug: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=585089
 Author: Scott Howard <showard@debian.org>

@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 diff --git openjdk/corba/make/Makefile openjdk/corba/make/Makefile
 index aef5c1b..62e2216 100644
 --- openjdk/corba/make/Makefile

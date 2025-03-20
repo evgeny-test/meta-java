@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [dead project]
+
 --- dom4j-1.6.1+dfsg.orig/src/java/org/jaxen/dom4j/DocumentNavigator.java
 +++ dom4j-1.6.1+dfsg/src/java/org/jaxen/dom4j/DocumentNavigator.java
 @@ -0,0 +1,501 @@

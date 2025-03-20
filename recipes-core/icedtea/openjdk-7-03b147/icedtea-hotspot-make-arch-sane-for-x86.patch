@@ -3,6 +3,8 @@ From: Henning Heinold <heinold@inf.fu-berlin.de>
 Date: Wed, 14 Mar 2012 22:15:47 +0100
 Subject: [PATCH] foo
 
+Upstream-Status: Backport
+
 ---
  hotspot/agent/make/saenv.sh                  |    4 +-
  hotspot/make/defs.make                       |    4 +-

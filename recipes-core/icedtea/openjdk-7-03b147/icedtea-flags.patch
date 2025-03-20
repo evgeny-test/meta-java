@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 diff --git openjdk/hotspot/agent/src/os/linux/Makefile openjdk/hotspot/agent/src/os/linux/Makefile
 index 25d43ae..ac3de8b 100644
 --- openjdk/hotspot/agent/src/os/linux/Makefile

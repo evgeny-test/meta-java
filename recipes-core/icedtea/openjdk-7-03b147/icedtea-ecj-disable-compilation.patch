@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 diff --git openjdk/jdk/make/common/Sanity.gmk openjdk/jdk/make/common/Sanity.gmk
 index 27fe5bd..97ad549 100644
 --- openjdk/jdk/make/common/Sanity.gmk

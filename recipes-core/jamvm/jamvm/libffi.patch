@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 From fcd374ce67c0385ca94b09dfc1b1ddf13c3f631a Mon Sep 17 00:00:00 2001
 From: Henning Heinold <heinold@inf.fu-berlin.de>
 Date: Sat, 12 Nov 2011 20:58:34 +0100
