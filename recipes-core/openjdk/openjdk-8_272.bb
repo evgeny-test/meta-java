@@ -14,6 +14,14 @@ do_install() {
     find ${D}${JDK_HOME} -name "*.debuginfo" -exec rm {} \;
 }
 
+do_package_qa_fix() {
+    # Fix QA Issue: File X in package openjdk-8-src contains reference to TMPDIR [buildpaths]
+    sed -i 's|${S}/||' "${B}/hotspot/linux_amd64_compiler2/generated/adfiles/dfa_x86_64.cpp"
+    sed -i 's|${S}/||' "${B}/hotspot/linux_amd64_compiler2/generated/adfiles/ad_x86_64.cpp"
+    sed -i 's|${S}/||' "${B}/hotspot/linux_amd64_compiler2/generated/adfiles/ad_x86_64.hpp"
+}
+addtask do_package_qa_fix after do_install before do_package
+
 PACKAGES:append = " \
     ${PN}-demo \
     ${PN}-source \
