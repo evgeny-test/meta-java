@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 Index: icedtea-2.1/Makefile.am
 ===================================================================
 --- icedtea-2.1.orig/Makefile.am

@@ -7,6 +7,7 @@ Fix a dependency for intermittent build failures, e.g.:
 1. ERROR in source/gnu/inet/util/SaslCallbackHandler.java (at line 43)
         import javax.security.auth.callback.Callback;
                ^^^^^^^^^^^^^^
+Upstream-Status: Inappropriate [dead project]
 
 Signed-off-by: Paul Barrette <paul.barrette@windriver.com>
 ---

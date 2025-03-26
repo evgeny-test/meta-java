@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 Index: libmatthew-java-0.7/Makefile
 ===================================================================
 --- libmatthew-java-0.7.orig/Makefile	2008-05-27 13:17:47.000000000 +0800

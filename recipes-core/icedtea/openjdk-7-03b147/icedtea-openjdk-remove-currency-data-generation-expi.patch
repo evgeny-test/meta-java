@@ -4,6 +4,8 @@ Date: Wed, 31 Dec 2014 16:07:32 +0100
 Subject: [PATCH] icedtea: openjdk: remove currency data generation expiration
  date
 
+Upstream-Status: Backport
+
 Signed-off-by: Alex Gonzalez <alex.gonzalez@digi.com>
 ---
  .../src/build/tools/generatecurrencydata/GenerateCurrencyData.java     | 3 ---

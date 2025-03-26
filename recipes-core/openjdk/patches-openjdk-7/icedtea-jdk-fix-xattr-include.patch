@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 --- openjdk/jdk/src/solaris/native/sun/nio/fs/LinuxNativeDispatcher.c
 +++ openjdk/jdk/src/solaris/native/sun/nio/fs/LinuxNativeDispatcher.c
 @@ -38,7 +38,7 @@

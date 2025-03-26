@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 Index: jamvm-1.4.5/configure.ac
 ===================================================================
 --- jamvm-1.4.5.orig/configure.ac

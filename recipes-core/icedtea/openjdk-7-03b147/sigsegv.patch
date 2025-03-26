@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 diff --git a/openjdk-boot/hotspot/src/share/vm/runtime/thread.cpp b/openjdk-boot/hotspot/src/share/vm/runtime/thread.cpp
 index 8b7059c8389f..67e9e7bd4bce 100644
 --- a/openjdk-boot/hotspot/src/share/vm/runtime/thread.cpp

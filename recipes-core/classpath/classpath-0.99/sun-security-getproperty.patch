@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [dead project]
+
 Index: gnu/classpath/debug/Simple1LineFormatter.java
 ===================================================================
 --- gnu/classpath/debug/Simple1LineFormatter.java.orig	2006-07-11 18:03:59.000000000 +0200

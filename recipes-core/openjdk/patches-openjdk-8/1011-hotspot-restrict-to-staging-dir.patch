@@ -3,6 +3,8 @@ From: Jens Rehsack <rehsack@gmail.com>
 Date: Thu, 2 Jan 2020 10:23:38 +0100
 Subject: [PATCH 1011/1013] hotspot: restrict to staging dir
 
+Upstream-Status: Backport
+
 Signed-off-by: Richard Leitner <richard.leitner@skidata.com>
 ---
  make/linux/makefiles/dtrace.make | 2 +-

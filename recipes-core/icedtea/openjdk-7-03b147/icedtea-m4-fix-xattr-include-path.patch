@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 --- a/acinclude.m4
 +++ b/acinclude.m4
 @@ -2102,7 +2102,7 @@

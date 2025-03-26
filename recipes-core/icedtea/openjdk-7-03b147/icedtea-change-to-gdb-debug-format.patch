@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 --- openjdk/hotspot/make/linux/makefiles/gcc.make	2015-04-02 08:02:31.301728214 +0200
 +++ openjdk/hotspot/make/linux/makefiles/gcc.make.new	2015-04-02 08:19:55.502171268 +0200
 @@ -233,7 +233,7 @@

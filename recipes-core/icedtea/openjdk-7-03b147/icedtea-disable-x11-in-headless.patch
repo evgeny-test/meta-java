@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 --- openjdk/jdk/make/sun/awt/FILES_c_unix.gmk.orig	2015-08-19 11:53:47.209867982 +0200
 +++ openjdk/jdk/make/sun/awt/FILES_c_unix.gmk	2015-08-19 11:57:48.677868529 +0200
 @@ -207,12 +207,6 @@

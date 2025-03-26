@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 --- icedtea-2.6.1/Makefile.am.orig	2015-07-24 08:52:12.442036786 +0200
 +++ icedtea-2.6.1/Makefile.am	2015-07-24 08:58:25.046029702 +0200
 @@ -605,6 +605,12 @@

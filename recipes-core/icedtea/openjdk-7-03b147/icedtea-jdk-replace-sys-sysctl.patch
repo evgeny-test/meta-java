@@ -1,3 +1,5 @@
+Upstream-Status: Inappropriate [Yocto-specific fixes]
+
 --- openjdk/jdk/src/solaris/native/java/net/PlainDatagramSocketImpl.c
 +++ openjdk/jdk/src/solaris/native/java/net/PlainDatagramSocketImpl.c
 @@ -35,7 +35,7 @@

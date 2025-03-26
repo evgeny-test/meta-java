@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 --- openjdk/jdk/src/share/native/java/lang/fdlibm/include/fdlibm.h
 +++ openjdk/jdk/src/share/native/java/lang/fdlibm/include/fdlibm.h
 @@ -26,13 +26,11 @@

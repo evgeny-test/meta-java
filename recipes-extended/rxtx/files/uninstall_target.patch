@@ -1,6 +1,9 @@
 Description: adds uninstall target to Makefile
 Author: Scott Howard <showard@debian.org>
 Bug: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=646069
+
+Upstream-Status: Pending
+
 Index: rxtx/Makefile.am
 ===================================================================
 --- rxtx.orig/Makefile.am	2011-10-31 02:43:21.532963961 -0400

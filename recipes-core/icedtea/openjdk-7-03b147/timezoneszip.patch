@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 diff --git a/Makefile.am b/Makefile.am
 index 5eaff4c40aac..a4f0f63f3e43 100644
 --- a/Makefile.am

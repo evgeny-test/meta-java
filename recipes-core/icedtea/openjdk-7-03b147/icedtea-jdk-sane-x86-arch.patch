@@ -3,6 +3,8 @@ From: Henning Heinold <heinold@inf.fu-berlin.de>
 Date: Wed, 14 Mar 2012 22:34:51 +0100
 Subject: [PATCH] real patch
 
+Upstream-Status: Backport
+
 ---
  jdk/make/common/shared/Compiler-gcc.gmk            |    4 +-
  jdk/make/common/shared/Platform.gmk                |   18 ++++------

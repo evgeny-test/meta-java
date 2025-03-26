@@ -1,3 +1,5 @@
+Upstream-Status: Backport
+
 diff --git openjdk/jdk/make/com/sun/jmx/Makefile openjdk/jdk/make/com/sun/jmx/Makefile
 index eaf8a6e..4938613 100644
 --- openjdk/jdk/make/com/sun/jmx/Makefile

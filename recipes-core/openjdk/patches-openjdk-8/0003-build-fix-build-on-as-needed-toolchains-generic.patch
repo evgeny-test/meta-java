@@ -64,6 +64,8 @@ place the $EXPECTED_OBJS early in the command line, before
 any additional libraries, so as to fix this once and for
 all.
 
+Upstream-Status: Backport
+
 Signed-off-by: André Draszik <andre.draszik@jci.com>
 Signed-off-by: Richard Leitner <richard.leitner@skidata.com>
 

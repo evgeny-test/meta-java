@@ -6,7 +6,7 @@ Subject: [PATCH] autoconf: remove Werror
 We don't want to mess around with disabling warnings on new
 compiler versions therefore we remove Werror.
 
-Upstream-Status: Invalid
+Upstream-Status: Inappropriate [Yocto-specific fixes]
 
 Signed-off-by: Richard Leitner <richard.leitner@skidata.com>
 
