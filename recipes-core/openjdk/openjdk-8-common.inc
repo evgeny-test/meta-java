@@ -185,8 +185,9 @@ EXTRA_OECONF:append = "\
 # Since v6, GCC sets the default C++ standard to C++14 and introduces
 # dead store elimination by default.
 # Since v10, GCC defaults to -fno-common.
+# Since v14, some warnings became errors to alert the programmer about ugly code
 # OpenJDK 8 is not ready for either of these changes.
-GLOBAL_FLAGS = "-fno-lifetime-dse -fno-delete-null-pointer-checks -fcommon"
+GLOBAL_FLAGS = "-fno-lifetime-dse -fno-delete-null-pointer-checks -fcommon -Wno-error=implicit-function-declaration -Wno-error=int-conversion -Wno-error=incompatible-pointer-types"
 
 # flags for -native, and for bits that need a host-tool during -cross
 BUILD_CFLAGS:append = " ${GLOBAL_FLAGS}"
