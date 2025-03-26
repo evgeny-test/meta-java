@@ -43,6 +43,6 @@ do_compile() {
 do_install:append() {
 	install -d ${D}${bindir}
 
-	install -m 0755 ${WORKDIR}/rhino ${D}${bindir}
-	install -m 0755 ${WORKDIR}/rhino-jsc ${D}${bindir}
+	install -m 0755 ${UNPACKDIR}/rhino ${D}${bindir}
+	install -m 0755 ${UNPACKDIR}/rhino-jsc ${D}${bindir}
 }

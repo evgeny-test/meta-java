@@ -15,7 +15,7 @@ do_compile() {
   mkdir -p build
 
 	#	Allow reaching method definitions from logkit (stupid cyclic dependency).
-	srcpath=src/java:${WORKDIR}/logkit-1.2.2-dev/src/java
+	srcpath=src/java:${UNPACKDIR}/logkit-1.2.2-dev/src/java
 
   javac -encoding ISO-8859-1 -sourcepath $srcpath -d build `find src/java -name "*.java"`
 

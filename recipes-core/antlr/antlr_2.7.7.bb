@@ -10,7 +10,7 @@ SRC_URI:append:class-native = " file://runantlr"
 inherit java-library
 
 do_configure:class-native() {
-    sed -i -e"s|@JAR_FILE@|${STAGING_DATADIR_JAVA_NATIVE}/antlr.jar|" ${WORKDIR}/runantlr
+    sed -i -e"s|@JAR_FILE@|${STAGING_DATADIR_JAVA_NATIVE}/antlr.jar|" ${UNPACKDIR}/runantlr
 }
 
 do_compile() {
@@ -23,7 +23,7 @@ do_compile() {
 
 do_install:class-native() {
     install -d ${D}${bindir}
-    install -m 0755 ${WORKDIR}/runantlr ${D}${bindir}/
+    install -m 0755 ${UNPACKDIR}/runantlr ${D}${bindir}/
 }
 
 SRC_URI[sha256sum] = "853aeb021aef7586bda29e74a6b03006bcb565a755c86b66032d8ec31b67dbb9"

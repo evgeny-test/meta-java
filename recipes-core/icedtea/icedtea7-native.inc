@@ -105,7 +105,7 @@ do_configure:prepend() {
 
 	# Automatically copy everything that starts with "icedtea" and ends with
 	# ".patch" into the patches directory.
-	find ${WORKDIR} -maxdepth 1 -name "icedtea*.patch" -exec cp {} ${S}/patches \;
+	find ${UNPACKDIR} -maxdepth 1 -name "icedtea*.patch" -exec cp {} ${S}/patches \;
 
 	# Prepare JDK-like directory with Classpath' files which we can treat as a
 	# SYSTEM_GCJ_DIR afterwards.
@@ -154,9 +154,9 @@ do_configure:append() {
 	${POST_CONFIGURE_CLEAN_X11}
 	oe_runmake patch-boot
 
-	patch -p1 < ${WORKDIR}/jaxws_fix_NullPointerException.patch
-	patch -p1 < ${WORKDIR}/sigsegv.patch
-	patch -p1 < ${WORKDIR}/vframeArray_Fix_sigsegv.patch
+	patch -p1 < ${UNPACKDIR}/jaxws_fix_NullPointerException.patch
+	patch -p1 < ${UNPACKDIR}/sigsegv.patch
+	patch -p1 < ${UNPACKDIR}/vframeArray_Fix_sigsegv.patch
 }
 
 EXTRA_OEMAKE = ' \

@@ -10,7 +10,7 @@ do_install() {
     mkdir -p ${D}${JRE_HOME}
     cp -rp ${B}/images/j2re-image/* ${D}${JRE_HOME}
     chown -R root:root ${D}${JRE_HOME}
-    install -m644 ${WORKDIR}/jvm.cfg  ${D}${JRE_HOME}/lib/${JDK_ARCH}/
+    install -m644 ${UNPACKDIR}/jvm.cfg  ${D}${JRE_HOME}/lib/${JDK_ARCH}/
 }
 
 FILES:${PN}:append = "\

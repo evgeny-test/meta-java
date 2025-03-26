@@ -25,7 +25,7 @@ ARM_INSTRUCTION_SET = "arm"
 do_configure:append:class-native() {
 	sed -i -e"s|STAGING_LIBDIR_NATIVE|${STAGING_LIBDIR_NATIVE}|g" \
 		-e "s|STAGING_DATADIR_NATIVE|${STAGING_DATADIR_NATIVE}|g" \
-	${WORKDIR}/java
+	${UNPACKDIR}/java
 }
 
 
@@ -44,7 +44,7 @@ EXTRA_OEMAKE:class-native = "JAVAC=${STAGING_BINDIR_NATIVE}/ecj-initial \
 
 do_install:append:class-native() {
 	install -d ${D}${bindir}
-	install -m 0755 ${WORKDIR}/java ${D}${bindir}/java
+	install -m 0755 ${UNPACKDIR}/java ${D}${bindir}/java
 
 }
 

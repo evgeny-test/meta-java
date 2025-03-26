@@ -141,8 +141,8 @@ EXTRA_OECONF += " \
 do_configure:prepend() {
     # Automatically copy everything that starts with "icedtea" (or "cacao") and ends with
     # ".patch" into the patches directory.
-    find ${WORKDIR} -maxdepth 1 -name "icedtea*.patch" -exec cp {} ${S}/patches \;
-    find ${WORKDIR} -maxdepth 1 -name "cacao*.patch" -exec cp {} ${S}/patches \;
+    find ${UNPACKDIR} -maxdepth 1 -name "icedtea*.patch" -exec cp {} ${S}/patches \;
+    find ${UNPACKDIR} -maxdepth 1 -name "cacao*.patch" -exec cp {} ${S}/patches \;
 }
 
 do_configure:append() {
@@ -199,7 +199,7 @@ do_install() {
         ln -s ${JDK_HOME}/jre/bin/$bf ${D}${JDK_HOME}/bin/$bf
     done
 
-    install -m644 ${WORKDIR}/jvm.cfg  ${D}${JDK_HOME}/jre/lib/${JDK_ARCH}/
+    install -m644 ${UNPACKDIR}/jvm.cfg  ${D}${JDK_HOME}/jre/lib/${JDK_ARCH}/
     # workaround for shared libarary searching
     ln -sf ${JDK_HOME}/jre/lib/${JDK_ARCH}/server/libjvm.so ${D}${JDK_HOME}/jre/lib/${JDK_ARCH}/
 }
