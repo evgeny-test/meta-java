@@ -1,7 +1,7 @@
 SUMMARY = "Common CA certificates (JKS trustStore)"
 DESCRIPTION = "This package uses the hooks of the ca-certificates \
 package to update the cacerts JKS trustStore used for many java runtimes."
-LICENSE = "GPLv2+"
+LICENSE = "GPL-2.0-or-later"
 LIC_FILES_CHKSUM = "\
 	file://debian/copyright;md5=ab0f6b6900f6564dc3e273dfa36fcc72 \
 	file://src/main/java/org/debian/security/InvalidKeystorePasswordException.java;endline=17;md5=f9150bf1ca3139a38ddb54f9e1c0eb9b \
